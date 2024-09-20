@@ -16,7 +16,7 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use('/uploads', express.static('uploads'));
 
-const mongoURI = 'mongodb+srv://akshay:1234@cluster0.1cus1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; 
+const mongoURI = ''; 
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
